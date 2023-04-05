@@ -1,6 +1,6 @@
 ﻿namespace Gustavo_Rocillo_e_Carlos
 {
-    partial class Form1
+    partial class frmmenu
     {
         /// <summary>
         /// Required designer variable.
@@ -30,8 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.algoritmosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.algoritmo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,27 +55,27 @@
             this.algoritmosToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
             this.algoritmosToolStripMenuItem.Text = "Algoritmos";
             // 
+            // algoritmo1ToolStripMenuItem
+            // 
+            this.algoritmo1ToolStripMenuItem.Name = "algoritmo1ToolStripMenuItem";
+            this.algoritmo1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.algoritmo1ToolStripMenuItem.Text = "Algoritmo 1";
+            this.algoritmo1ToolStripMenuItem.Click += new System.EventHandler(this.algoritmo1ToolStripMenuItem_Click);
+            // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.sairToolStripMenuItem.Text = "sair";
             // 
-            // algoritmo1ToolStripMenuItem
-            // 
-            this.algoritmo1ToolStripMenuItem.Name = "algoritmo1ToolStripMenuItem";
-            this.algoritmo1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.algoritmo1ToolStripMenuItem.Text = "Algoritmo 1";
-            // 
-            // Form1
+            // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1380, 746);
             this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmmenu";
+            this.Text = "menu";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
