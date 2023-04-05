@@ -33,6 +33,7 @@
             this.algoritmo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.algoritmo2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.algoritmo3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,8 @@
             // 
             this.algoritmosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.algoritmo1ToolStripMenuItem,
-            this.algoritmo2ToolStripMenuItem});
+            this.algoritmo2ToolStripMenuItem,
+            this.algoritmo3ToolStripMenuItem});
             this.algoritmosToolStripMenuItem.Name = "algoritmosToolStripMenuItem";
             this.algoritmosToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
             this.algoritmosToolStripMenuItem.Text = "Algoritmos";
@@ -78,6 +80,13 @@
             this.algoritmo2ToolStripMenuItem.Text = "Algoritmo 2";
             this.algoritmo2ToolStripMenuItem.Click += new System.EventHandler(this.algoritmo2ToolStripMenuItem_Click);
             // 
+            // algoritmo3ToolStripMenuItem
+            // 
+            this.algoritmo3ToolStripMenuItem.Name = "algoritmo3ToolStripMenuItem";
+            this.algoritmo3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.algoritmo3ToolStripMenuItem.Text = "Algoritmo 3";
+            this.algoritmo3ToolStripMenuItem.Click += new System.EventHandler(this.algoritmo3ToolStripMenuItem_Click);
+            // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -101,6 +110,7 @@
         private System.Windows.Forms.ToolStripMenuItem algoritmo1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem algoritmo2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem algoritmo3ToolStripMenuItem;
     }
 }
 
