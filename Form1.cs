@@ -29,5 +29,17 @@ namespace Gustavo_Rocillo_e_Carlos
             var.Show();
 
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void algoritmo2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frm2 var = new frm2();
+            var.Show();
+        }
     }
 }
